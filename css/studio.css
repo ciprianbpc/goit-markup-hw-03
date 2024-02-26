@@ -44,11 +44,6 @@
     width: 1440px;
     height: 72px;
 }
-
-
-.main-nav ul li {
-    list-style-type: none;
-} 
 .main-hero {
        background: var(--navy-blue);
        color: var(--white);

@@ -1,11 +1,3 @@
-.text-logo::after {
-    content: "Studio";
-    color: black;
-}
-.text-logo::before {
-    content: Web;
-    color: blue;
-}
 
 :root {
     --iris: #4d5ae5;
@@ -26,7 +18,35 @@
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
 }
-.global-header {
+
+.text-logo {
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.text-logo::after {
+    content: "Studio";
+    color: black;
+}
+
+.text-logo::before {
+    content: Web;
+    color: blue;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+.container-global-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -34,9 +54,48 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    
+    text-decoration: none;    
 }
-.global-hrader nav main-menu ul {
-    list-style-type: none;
+
+.nav-menu ul {
     display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    padding: 0;
 }
+.nav-menu ul li {
+    margin-right: 25px;
+    display: inline;  
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+.info {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
+}
+.tel {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-decoration: none;
+}
+
+
+

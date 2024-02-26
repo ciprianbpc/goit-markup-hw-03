@@ -13,121 +13,126 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link href="https://github.com/sindresorhus/modern-normalize/commit/c997a1e1d37aadbf9b6bc46ed396e7d9ebc8632f">
     <link rel=" stylesheet" href="./css/portofoliu.css">
 
 </head>
 
 
 <body>
-    <header class="global-header">
+    <div class="container">
+        <header class="container-global-header">
 
-        <a href="WebStudio" class="text-logo">Web</a>
+            <a href="WebStudio" class="text-logo">Web</a>
 
-        <nav class="main-menu">
+            <nav class="nav-menu">
+                <ul>
+                    <li> <a href="./index.html">Studio</a></li>
+                    <li> <a href="./portofoliu.html">Portofoliu</a></li>
+                    <li> <a href="Contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <a href="mailto:info@devstudio.com" class="info">info@devstudio.com</a>
+            <a href="tel:+11(000)1111111" class="tel">+11 (000) 111-11-11</a>
+
+
+        </header>
+
+        <div class="filter">
             <ul>
-                <li> <a href="./index.html">Studio</a></li>
-                <li> <a href="./portofoliu.html">Portofoliu</a></li>
-                <li> <a href="Contacts">Contacts</a></li>
+                <li><button type="button">All</button></li>
+                <li><button type="button">Web site</button></li>
+                <li><button type="button">App</button></li>
+                <li><button type="button">Desing</button></li>
+                <li><button type="button">Marketing</button></li>
             </ul>
-        </nav>
-        <a href="tel:+11(000)1111111">+11 (000) 11111</a>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-
-    </header>
-
-    <div class="filter">
-        <ul>
-            <li><button type="button">All</button></li>
-            <li><button type="button">Web site</button></li>
-            <li><button type="button">App</button></li>
-            <li><button type="button">Desing</button></li>
-            <li><button type="button">Marketing</button></li>
-        </ul>
-    </div>
-
-    <div class="raw1">
-        <div>
-            <ProjectCard1>
-                <img src="img/img (9).jpg" alt="imagine.layout.aplicatie.bancara" width="360">
-                <h3>Banking App Interface Concept</h3>
-                <p>App</p>
-
-            </ProjectCard1>
-        </div>
-        <div>
-            <ProjectCard2>
-                <img src="img/img (10).jpg" alt="imagine.lectura.layout.telefon" width="360">
-                <h3>Cashless Payment</h3>
-                <p>Marketing</p>
-            </ProjectCard2>
         </div>
 
-        <div>
-            <ProjectCard3>
-                <img src="img/img (11).jpg" alt="imgagine.laptop.telefon" width="360">
-                <h3>Meditation App</h3>
-                <p>App</p>
-            </Projectcard3>
-        </div>
-
-    </div>
-
-
-    <div class="raw2">
-
-        <div>
-            <ProjectCard1>
-                <img src="img/img (12).jpg" alt="imagine.bord.volan.masina" width="360">
-                <h3>Taxi Service</h3>
-                <p>Marketing</p>
-            </ProjectCard1>
-        </div>
-        <div>
-            <ProjectCard2>
-                <img src="img/img (17).jpg" alt="imagine.telefon.layout" width="360">
-                <h3>Screen Illustrations</h3>
-                <p>Design</p>
-            </ProjectCard2>
-        </div>
-        <div>
-            <ProjectCard3>
-                <img src="img/img (13).jpg" alt="iamgine.tanara.zambiind" width="360">
-                <h3>Online Courses</h3>
-                <p>Marketing</p>
-            </ProjectCard3>
-        </div>
-        <div class="raw3">
+        <div class="raw1">
             <div>
-                <Projectcard1>
-                    <img src="img/img (15).jpg" alt="imagini.instagram.tanara" width="360">
-                    <h3>Instagram Stories Concept</h3>
-                    <p>Design</p>
-                </Projectcard1>
+                <ProjectCard1>
+                    <img src="img/img (9).jpg" alt="imagine.layout.aplicatie.bancara" width="360">
+                    <h3>Banking App Interface Concept</h3>
+                    <p>App</p>
+
+                </ProjectCard1>
             </div>
             <div>
                 <ProjectCard2>
-                    <img src="img/img (18).jpg" alt="imagine.produse.ecologice" width="360">
-                    <h3>Organic Food</h3>
-                    <p>Web Site</p>
+                    <img src="img/img (10).jpg" alt="imagine.lectura.layout.telefon" width="360">
+                    <h3>Cashless Payment</h3>
+                    <p>Marketing</p>
+                </ProjectCard2>
+            </div>
+
+            <div>
+                <ProjectCard3>
+                    <img src="img/img (11).jpg" alt="imgagine.laptop.telefon" width="360">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </Projectcard3>
+            </div>
+
+        </div>
+
+
+        <div class="raw2">
+
+            <div>
+                <ProjectCard1>
+                    <img src="img/img (12).jpg" alt="imagine.bord.volan.masina" width="360">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </ProjectCard1>
+            </div>
+            <div>
+                <ProjectCard2>
+                    <img src="img/img (17).jpg" alt="imagine.telefon.layout" width="360">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
                 </ProjectCard2>
             </div>
             <div>
                 <ProjectCard3>
-                    <img src="img/img (16).jpg" alt="imagine.cafea.lapte" width="360">
-                    <h3>Fresh Coffee</h3>
-                    <p>Web Site</p>
+                    <img src="img/img (13).jpg" alt="iamgine.tanara.zambiind" width="360">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
                 </ProjectCard3>
             </div>
+            <div class="raw3">
+                <div>
+                    <Projectcard1>
+                        <img src="img/img (15).jpg" alt="imagini.instagram.tanara" width="360">
+                        <h3>Instagram Stories Concept</h3>
+                        <p>Design</p>
+                    </Projectcard1>
+                </div>
+                <div>
+                    <ProjectCard2>
+                        <img src="img/img (18).jpg" alt="imagine.produse.ecologice" width="360">
+                        <h3>Organic Food</h3>
+                        <p>Web Site</p>
+                    </ProjectCard2>
+                </div>
+                <div>
+                    <ProjectCard3>
+                        <img src="img/img (16).jpg" alt="imagine.cafea.lapte" width="360">
+                        <h3>Fresh Coffee</h3>
+                        <p>Web Site</p>
+                    </ProjectCard3>
+                </div>
+            </div>
         </div>
+
+        <footer class="main-info">
+
+            <a href="WebStudio" class="text-logo">Web</a>
+            <p>Increase the flow of customers and<br> sales for your business with digital<br> marketing & growth
+                solutions.
+            </p>
+
+        </footer>
     </div>
-
-    <footer class="main-info">
-
-        <a href="WebStudio" class="text-logo">Web</a>
-        <p>Increase the flow of customers and<br> sales for your business with digital<br> marketing & growth solutions.
-        </p>
-
-    </footer>
 </body>
 
 </html>
