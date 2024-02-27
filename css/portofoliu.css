@@ -96,9 +96,34 @@
 }
 .raw1 {
     display: flex;
-    justify-content: center;
-    
+    justify-content: space-around;
+    padding-top: 94px;
+    ;
+}
 
+.raw2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 94px;
+    
+}
+.raw3 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 94px;
+    padding-bottom: 94px; 
+}
+.global-footer {
+    width: 1440px;
+    height: 312px;
+    background: var(--navy-blue);
+    color: #fff;
+    justify-content: center;
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-left: 156px;
 }
 
 
